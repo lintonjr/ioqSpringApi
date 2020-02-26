@@ -1,0 +1,8 @@
+package br.com.ioq.IOQApplication.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PersonServices {
+
+}

@@ -1,0 +1,6 @@
+package br.com.ioq.IOQApplication;
+
+@RestController
+public class GreetingController {
+
+}

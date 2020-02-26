@@ -1,0 +1,44 @@
+package br.com.ioq.IOQApplication.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.ioq.IOQApplication.model.Person;
+import br.com.ioq.IOQApplication.repository.PersonRepository;
+
+@Service
+public class PersonServices {
+	
+	@Autowired
+	PersonRepository repository;
+	
+	public Person findById(String id) {
+		Person person = new Person();
+		person.setId(counter.incrementAndGet());
+		person.setFirstName("Linton");
+		person.setLastName("Junior");
+		person.setAddress("Manaus - Amazonas - Brasil");
+		person.setGender("Male");
+		return person;
+	}
+	
+	public List<Person> findAll() {
+		return repository.findAll();
+	}
+	
+	public Person create(Person person) {
+		return repository.save(person);
+	}
+	
+	public Person update(Person person) {
+		
+		return person;
+	}
+	
+	public void delete(String id) {
+		
+	}
+}

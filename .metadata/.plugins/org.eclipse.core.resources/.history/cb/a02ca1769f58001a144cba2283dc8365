@@ -1,0 +1,8 @@
+package br.com.ioq.IOQApplication;
+
+public class Greeting {
+	
+	private final long id;
+	private final String content;
+
+}

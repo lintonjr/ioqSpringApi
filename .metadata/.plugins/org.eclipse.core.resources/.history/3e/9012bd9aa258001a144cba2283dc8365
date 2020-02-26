@@ -1,0 +1,5 @@
+package br.com.ioq.IOQApplication.model;
+
+public class Person {
+
+}

@@ -1,0 +1,9 @@
+package br.com.ioq.IOQApplication.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PersonController {
+	
+	
+}
